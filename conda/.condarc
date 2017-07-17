@@ -1,0 +1,4 @@
+channels:
+  - r
+  - bioconda
+  - defaults
