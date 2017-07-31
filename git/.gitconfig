@@ -1,9 +1,10 @@
 [user]
     name                    = Vivek Rai
-    email                   = vivekrai.iitkgp@gmail.com
+    email                   = mail@raivivek.in
+    signingkey              = 3D8880E3484134D3
 [core]
     whitespace              = trailing-space,space-before-tab
-        editor              = vim
+    editor                  = vim
     autocrlf                = input
 [color]
     ui                      = auto
@@ -44,3 +45,7 @@
 [format]
     signoff                 = true
     coverLetter             = auto
+[gpg]
+    program                 = gpg2
+[commit]
+    gpgsign                 = true
