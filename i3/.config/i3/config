@@ -216,6 +216,7 @@ bindsym $mod+t [class="Gnome-terminal"] focus
 exec --no-startup-id "unclutter -root"
 exec --no-startup-id "dropbox start -i"
 exec --no-startup-id "nm-applet"
+exec --no-startup-id "blueman-applet"
 exec --no-startup-id "xscreensaver -no-splash"
 exec --no-startup-id "xfce4-power-manager"
 exec_always --no-startup-id feh --bg-scale ~/.wallpaper/bg.jpg
@@ -246,4 +247,6 @@ bindsym F3 exec xbacklight -dec 5
 bindsym F4 exec xbacklight -inc 5
 
 # screenie
-# bindsym Print exec scrot -q 95 '%Y-%m-%d-%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/Screenshots'
+bindsym Print exec scrot -q 95 '%Y-%m-%d-%s_$wx$h_scrot.png' -e 'mv $f ~/Pictures/Screenshots'
+
+bindsym $mod+m move workspace to output right
