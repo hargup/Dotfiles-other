@@ -179,7 +179,7 @@ nmap  <leader>s     :set invspell spelllang=en<CR>
 nmap  <leader>ss    :set spell spelllang=en-basic<CR>
 
 "grammer check
-let g:languagetool_jar='/home/hargup/code/LanguageTool-2.8/languagetool-commandline.jar'
+let g:languagetool_jar='/home/harsh/code/LanguageTool-2.8/languagetool-commandline.jar'
 nmap <leader>l :LanguageToolCheck<CR>
 nmap <leader>ll :LanguageToolClear<CR>
 
